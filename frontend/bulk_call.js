@@ -111,7 +111,7 @@ const ButtonComponent = (props) => {
   return (
     <Button onClick={() => sms()} icon="edit" style={{ background: "#18BFFF" }}>
       {sendingProgress
-        ? `Sending SMS ... (${Math.round(sendingProgress * 100)}%)`
+        ? `Initiating calls ... (${Math.round(sendingProgress * 100)}%)`
         : "SEND "}
     </Button>
   );
